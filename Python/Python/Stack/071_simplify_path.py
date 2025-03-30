@@ -1,3 +1,4 @@
+
 """
 LeetCode Problem: 71. Simplify Path
 Link: https://leetcode.com/problems/simplify-path/
