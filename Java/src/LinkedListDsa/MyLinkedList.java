@@ -61,8 +61,8 @@ public class MyLinkedList {
 
     public static void main(String[] args) {
         MyLinkedList list = new MyLinkedList();
-        list.addAtHead(10);
-        list.addAtTail(20);
+        list.addAtHead(20);
+        list.addAtTail(10);
         list.addAtIndex(1, 15);
         list.deleteAtIndex(0);
         System.out.println("Value at index 1: " + list.get(1));  // Output: 20
