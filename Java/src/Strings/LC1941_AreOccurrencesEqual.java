@@ -2,6 +2,17 @@ package Strings;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Name: LC1941 – Check if All Characters Have Equal Number of Occurrences
+ * a. Problem description:
+ * Given a string s, return true if every character in s appears the same number of times. Otherwise, return false.
+ *
+ * Example:
+ * Input: "abacbc"
+ * Output: true
+ * d. My approach description:
+ * I used a HashMap to count the frequency of each character. Then I looped through all values and checked if all frequencies matched the first one encountered. If any mismatch was found, I returned false.
+ */
 public class LC1941_AreOccurrencesEqual {
 
     public boolean areOccurrencesEqual(String s) {
